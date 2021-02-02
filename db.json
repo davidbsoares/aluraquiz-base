@@ -1,28 +1,70 @@
 {
-	"bg": "/assets/bg-zelda.jpg",
+	"bg": "/assets/bg-westminster.jpg",
 	"title": "Quiz CSS da Alura",
 	"description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
 	"questions": [
 		{
-			"image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-			"title": "Quem não é uma pessoa da Trindade?",
-			"description": "Essa é pra aquecer",
-			"answer": 3,
-			"alternatives": ["Pai", "Espírito", "Filho", "Maria"]
+			"image": "/assets/jesus.jpg",
+			"title": "Jesus Cristo tem duas naturezas - a humana e a divina. Mas quantas vontades ele possui?",
+			"description": "",
+			"answer": 1,
+			"alternatives": ["1", "2", "3", "7"]
 		},
 		{
-			"image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-			"title": "Quem comeu o fruto proibido primeiro?",
-			"description": "Faz tempo em haha",
+			"image": "/assets/caridade.jpg",
+			"title": "Deus recompensa as nossas boas obras?",
+			"description": "",
+			"answer": 0,
+			"alternatives": ["Sim", "Não"]
+		},
+		{
+			"image": "/assets/remonstrantes.jpg",
+			"title": "Qual a diferença entre a doutrina da eleição do arminianismo e a do calvinismo?",
+			"description": "",
+			"answer": 2,
+			"alternatives": [
+				"Não existe eleição no arminianismo.",
+				"No arminianismo a eleição é corporativa.",
+				"No arminianismo a eleição depende da fé."
+			]
+		},
+		{
+			"image": "/assets/maria.jpg",
+			"title": "É correto dizer que Maria é a 'mãe de Deus'?",
+			"description": "",
+			"answer": 0,
+			"alternatives": ["Sim", "Não"]
+		},
+		{
+			"image": "/assets/moisés.jpg",
+			"title": "Os crentes do Antigo Testamento eram salvos pela sua obediência à lei de Moisés?",
+			"description": "",
 			"answer": 1,
-			"alternatives": ["Adão", "Eva"]
+			"alternatives": ["Sim", "Não"]
+		},
+		{
+			"image": "/assets/oração.jpg",
+			"title": "De acordo com a doutrina reformada, a santificação é sinergistica?",
+			"description": "",
+			"answer": 0,
+			"alternatives": ["Sim", "Não"]
+		},
+		{
+			"image": "/assets/céu.jpg",
+			"title": "O céu é o destino final para os salvos.",
+			"description": "",
+			"answer": 1,
+			"alternatives": ["Certo", "Errado"]
 		}
 	],
-	"external": [""],
+	"external": [
+		"https://github.com/marcoskloss/aluraquiz",
+		"https://github.com/alura-challenges/aluraquiz-base"
+	],
 	"theme": {
 		"colors": {
-			"primary": "#4CAF50",
-			"secondary": "#FF9800",
+			"primary": "#FF9800",
+			"secondary": "#4CAF50",
 			"mainBg": "#1C1814",
 			"contrastText": "#FFFFFF",
 			"wrong": "#FF5722",

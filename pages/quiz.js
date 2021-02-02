@@ -28,7 +28,7 @@ function ResultWidget({ results }) {
 					{results.map((result, index) => (
 						<li key={`result__${result}`}>
 							#0
-							{index + 1} Resultado:
+							{index + 1} Resultado: {''}
 							{result === true ? 'Acertou' : 'Errou'}
 						</li>
 					))}
@@ -96,7 +96,7 @@ function QuestionWidget({
 							onSubmit();
 							setIsQuestionSubmitted(false);
 							setSelectedAlternative(undefined);
-						}, 3 * 1000);
+						}, 2 * 1000);
 					}}
 				>
 					{question.alternatives.map((alternative, alternativeIndex) => {

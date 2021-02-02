@@ -26,7 +26,7 @@ export default function Home() {
 
 				<Widget>
 					<Widget.Header>
-						<h1>The Legend of Zelda</h1>
+						<h1>Quiz Reformado</h1>
 					</Widget.Header>
 					<Widget.Content>
 						<form
@@ -55,7 +55,9 @@ export default function Home() {
 					<Widget.Content>
 						<h1>Quizes da Galera</h1>
 
-						<p>Lorem ipsum dolor sit amet...</p>
+						{db.external.map((linkExterno) => {
+							return linkExterno;
+						})}
 					</Widget.Content>
 				</Widget>
 				<Footer />
