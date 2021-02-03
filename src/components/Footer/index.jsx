@@ -35,7 +35,11 @@ export default function Footer(props) {
 				/>
 			</a>
 			<p>
-				Orgulhosamente criado durante a{' '}
+				Criado por{' '}
+				<a href='https://github.com/davidbsoares'>
+					<span>David Brum Soares</span>
+				</a>{' '}
+				durante a{' '}
 				<a href='https://www.alura.com.br/'>
 					<span>Imersão React da Alura</span>
 				</a>

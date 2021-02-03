@@ -1,14 +1,14 @@
 {
 	"bg": "/assets/bg-westminster.jpg",
-	"title": "Quiz CSS da Alura",
-	"description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+	"title": "Quiz Teológico Reformado",
+	"description": "Teste os seus conhecimentos teológicos",
 	"questions": [
 		{
 			"image": "/assets/jesus.jpg",
 			"title": "Jesus Cristo tem duas naturezas, a humana e a divina. Mas quantas vontades ele possui?",
 			"description": "",
 			"answer": 1,
-			"alternatives": ["1", "2", "3", "7"]
+			"alternatives": ["1", "2", "3"]
 		},
 		{
 			"image": "/assets/caridade.jpg",
@@ -63,7 +63,7 @@
 	],
 	"theme": {
 		"colors": {
-			"primary": "#FF9800",
+			"primary": "#f57c00",
 			"secondary": "#4CAF50",
 			"mainBg": "#1C1814",
 			"contrastText": "#FFFFFF",
