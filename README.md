@@ -38,7 +38,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ⌨ Como executar o projeto
 
 
-É possível também acessar o site: "https://aluraquiz-base.davidbsoares.vercel.app/"
+É possível acessar o site: "https://aluraquiz-base.davidbsoares.vercel.app/"
 
 ```bash
 # Clonar o repositório
