@@ -13,7 +13,7 @@ import BackLinkArrow from '../../src/components/BackLinkArrow';
 function ResultWidget({ results }) {
 	return (
 		<Widget>
-			<Widget.Header>Carregando...</Widget.Header>
+			<Widget.Header>Resultado</Widget.Header>
 
 			<Widget.Content>
 				<p>
