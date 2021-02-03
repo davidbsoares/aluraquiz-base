@@ -5,7 +5,7 @@
 	"questions": [
 		{
 			"image": "/assets/jesus.jpg",
-			"title": "Jesus Cristo tem duas naturezas - a humana e a divina. Mas quantas vontades ele possui?",
+			"title": "Jesus Cristo tem duas naturezas, a humana e a divina. Mas quantas vontades ele possui?",
 			"description": "",
 			"answer": 1,
 			"alternatives": ["1", "2", "3", "7"]
@@ -58,8 +58,8 @@
 		}
 	],
 	"external": [
-		"https://github.com/marcoskloss/aluraquiz",
-		"https://github.com/alura-challenges/aluraquiz-base"
+		"https://aluraquiz.marcoskloss.vercel.app/",
+		"https://aluraquiz-base.alura-challenges.vercel.app/"
 	],
 	"theme": {
 		"colors": {

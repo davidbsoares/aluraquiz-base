@@ -13,7 +13,7 @@ const AlternativesForm = styled.form`
 			}
 		}
 		&:focus {
-			opacity: 4;
+			opacity: 1;
 		}
 	}
 	button {

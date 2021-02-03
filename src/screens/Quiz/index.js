@@ -1,14 +1,14 @@
 import React from 'react';
-import db from '../db.json';
 import { Lottie } from '@crello/react-lottie';
-import Widget from '../src/components/Widget/index';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
-
-import loadingAnimation from '../src/screens/Quiz/animations/loading.json';
+// import db from '../../../db.json';
+import Widget from '../../../src/components/Widget/index';
+import QuizLogo from '../../../src/components/QuizLogo';
+import QuizBackground from '../../../src/components/QuizBackground';
+import QuizContainer from '../../../src/components/QuizContainer';
+import AlternativesForm from '../../../src/components/AlternativesForm';
+import Button from '../../../src/components/Button';
+import loadingAnimation from '../../../src/screens/Quiz/animations/loading.json';
+import BackLinkArrow from '../../components/BackLinkArrow';
 
 function ResultWidget({ results }) {
 	return (
@@ -78,7 +78,7 @@ function QuestionWidget({
 	return (
 		<Widget>
 			<Widget.Header>
-				{/* <BackLinkArrow href="/" /> */}
+				<BackLinkArrow href='/' />
 				<h3>
 					{`Pergunta
 					${questionIndex + 1}
@@ -153,13 +153,14 @@ const screenStates = {
 	LOADING: 'LOADING',
 	RESULT: 'RESULT',
 };
-export default function QuizPage() {
+export default function QuizPage({ externalQuestions, externalBg }) {
 	const [screenState, setScreenState] = React.useState(screenStates.LOADING);
 	const [results, setResults] = React.useState([]);
-	const totalQuestions = db.questions.length;
+	const totalQuestions = externalQuestions.length;
 	const [currentQuestion, setCurrentQuestion] = React.useState(0);
 	const questionIndex = currentQuestion;
-	const question = db.questions[questionIndex];
+	const question = externalQuestions[questionIndex];
+	const bg = externalBg;
 
 	function addResult(result) {
 		setResults([...results, result]);
@@ -184,7 +185,7 @@ export default function QuizPage() {
 	}
 
 	return (
-		<QuizBackground backgroundImage={db.bg}>
+		<QuizBackground backgroundImage={bg}>
 			<QuizContainer>
 				<QuizLogo />
 
